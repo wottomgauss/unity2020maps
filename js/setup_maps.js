@@ -56,8 +56,8 @@ var geocoder = L.Control.geocoder({
     })
     .addTo(map);
 
-// Print map
-L.control.browserPrint({manualMode: true}).addTo(map)
+// Print map - DISABLED: https://github.com/wottomgauss/unity2020maps/issues/3
+// L.control.browserPrint({manualMode: true}).addTo(map)
 
 // Move leaflet 'control' off the map
 // var newParent = document.getElementById('custom-map-controls');
